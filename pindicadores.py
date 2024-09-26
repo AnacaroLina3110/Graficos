@@ -9,10 +9,10 @@ from datetime import datetime, timedelta
 def connect_db():
     try:
         connection = mysql.connector.connect(
-            host="supercompu",
-            user="AdmDB",
-            password="110311031103",
-            database='riabd',
+            host="****",
+            user="*****",
+            password="*********",
+            database='******',
         )
         return connection
     except mysql.connector.Error as err:
